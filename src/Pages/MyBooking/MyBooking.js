@@ -18,7 +18,7 @@ const MyBooking = () => {
 
      //delete my booking
      const handleDelete = id => {
-        const url = `https://ghostly-barrow-94416.herokuapp.com/tour/${id}`;
+        const url = `https://ghostly-barrow-94416.herokuapp.com/tour${id}`;
         fetch(url, {
             method: 'DELETE'
         })
@@ -26,7 +26,7 @@ const MyBooking = () => {
             .then(data => {
                 console.log(data);
                 if (data.deletedCount) {
-                    alert('Are you sure to delete?');
+                    alert('Are you want to delete?');
 
                     const remainingOrder = booking.filter(singleOrder => singleOrder._id !== id);
                     setBooking(remainingOrder);
@@ -44,23 +44,7 @@ const MyBooking = () => {
             <br/>
             <br />
             <h1 className="text text-center">My Order</h1>
-            <Table striped bordered hover>
-
-         
-  {/* <thead>
-    <tr>
-      <th>Name</th>
-      <th>Email</th>
-      <th>Address</th>
-      <th>Phone Number</th>
-      <th>Tour Place</th>
-      <th>Date</th>
-      <th>Cost</th>
-      <th>Delete</th>
-
-    </tr>
-  </thead> */}
-  <div>
+            <Table striped bordered hover><div>
            
             {
                 booking.map(book =><div

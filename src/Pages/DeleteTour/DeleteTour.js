@@ -18,7 +18,7 @@ const DeleteTour = () => {
             .then(data => {
                 console.log(data);
                 if (data.deletedCount) {
-                    alert('Are you sure to delete?');
+                    alert('Are you want to delete?');
 
                     const remainingTours = tourService.filter(tour => tour._id !== id);
                     setTourService(remainingTours);

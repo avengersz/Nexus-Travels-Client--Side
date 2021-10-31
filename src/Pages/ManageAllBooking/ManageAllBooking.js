@@ -16,7 +16,7 @@ const ManageAllBooking = () => {
        const handleDelete = id =>{
         const proceed = window.confirm ('Are you sure, you want to delete?');
 if(proceed){
-    const url = `https://ghostly-barrow-94416.herokuapp.com/book/${id}`
+    const url = `https://ghostly-barrow-94416.herokuapp.com/book${id}`
 fetch(url,{
     method: 'DELETE'
 })
