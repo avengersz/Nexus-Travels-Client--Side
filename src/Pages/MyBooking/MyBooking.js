@@ -18,7 +18,7 @@ const MyBooking = () => {
 
      //delete my booking
      const handleDelete = id => {
-        const url = `https://ghostly-barrow-94416.herokuapp.com/tour${id}`;
+        const url = `https://ghostly-barrow-94416.herokuapp.com/tour/${id}`;
         fetch(url, {
             method: 'DELETE'
         })
