@@ -1,0 +1,13 @@
+.addnew form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.addnew form input,textarea{
+    width: 75%;
+    margin-bottom: 20px;
+    padding: 15px;
+
+}

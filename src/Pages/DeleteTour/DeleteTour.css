@@ -1,0 +1,17 @@
+.manage-tours{
+    margin: 200px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+ 
+}
+.add-tour-card{
+    width: 300px;
+    height:400px;
+}
+.card img{
+    width:300px;
+    height:300px;
+}
+.delete-title{
+    text-align: center;
+}

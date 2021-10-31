@@ -1,0 +1,24 @@
+.booking form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.booking form input{
+    width: 75%;
+    margin-bottom: 20px;
+    padding: 15px;
+
+}
+.image{
+    height: 400px;
+    width: 700px;
+}
+
+@media only screen and (max-width: 688px){
+    .image{
+        height: 200px;
+        width: 300px;
+    }
+}
