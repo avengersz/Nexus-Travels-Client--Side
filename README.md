@@ -1,6 +1,6 @@
-# Arch Creek Animal Clinic
+# Nexus Travels
 
-Arch Creek Animal Clinic is a website where you find pet doctor and treatment.
+Nexus Travels is a website where you can find travel & tour information for travelling.
 
 ## Technologies
 
@@ -14,16 +14,17 @@ Technologies used in this Project mentioned below:
 5. React Hook Form
 6. VS Code
 7.Firebase Authentication
+8.MongoDB
 ```
 
 ## Features
 
 ```
-1. you can see pet doctors.
-2. you can make your pet healthy.
-3. you can owned pet features.
+1. you can see travel information.
+2. you can make your own tour plan.
+3. you can book tour.
 ```
 
 ## Live Site Link
 
-[Live Site] (https://arch-creek-animal-clinic.web.app)
+[Live Site] (https://supreme-service-dbe20.web.app/)

@@ -3,12 +3,13 @@ import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import useAuth from '../../../hooks/useAuth';
+import './Navigation.css';
 
 
 const Navigation = () => {
     const {user, logOut} = useAuth()
     return (
-        <div className="bg">
+        <div className=".navbar-custom">
              <Navbar className="fw-bold p-3" fixed="top"  bg="light" expand="lg">
   <Container>
     
